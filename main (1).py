@@ -1,10 +1,1 @@
-a = int(input())
-b = int(input())
-c = int(input())
-if a > b:
-    print(a - b + c)
-elif a == b:
-    print(a + c)
-else:
-    print(a + b + c)
-
+x = int(input())if x > 99 and x < 1000:   a = x % 10   b = x // 10 % 10   c = x // 100 % 10   d = 5else:    print("Wrong Number")if a+b+c > 9 and a+b+c <100:    print("x - двузначное число")else:    print("x - недвузначное число")if a*b*c > 99 and x < 1000:    print("Произведение цифр является трехзначным числом")else:    print("Произведение цифр не является трехзначным числом")if a*b*c > a:    print("Произведение цифр больше числа a")else:    print("Произведение цифр не больше числа a")if d % (a+b+c) == 0:    print("Сумма чисел кратна 5")else:    print("Сумма чисел не кратна 5")if a % (a+b+c) == 0:    print("Сумма цифр кратна числу a")else:    print("Сумма цифр не кратна числу a")
